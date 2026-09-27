@@ -1,0 +1,69 @@
+nav {
+  display: flex;
+  gap: 4rem;
+}
+
+.brand {
+  display: flex;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+body {
+    font-style: oblique;
+  font-size: larger;
+  color: rgb(218, 215, 212);
+  background-color: rgb(5, 146, 75);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  gap: 2rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+  margin: 2rem;
+  padding: 1rem;
+}
+
+ul {
+  color: rgb(216, 253, 7);
+}
+
+.testimonial {
+  background-color: darkred;
+}
+
+footer {
+  background-color: darkgrey;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+aside li {
+  border: solid; 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
